@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Posts List - Next.js 13 & TanStack Query Project
 
-## Getting Started
+Welcome to the Posts List project! This exercise demonstrates how to fetch blog posts from a database and display their information using Next.js 13 and TanStack Query. It's a simple web application that allows you to browse through a list of blog posts.
 
-First, run the development server:
+## Requirements
 
-```bash
+To run the Posts List project locally, ensure you have the following installed:
+
+- Node.js (>= 12.0.0)
+- npm (>= 6.0.0)
+
+## Installation and Setup
+
+To get started, follow these steps:
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/RichardAnthonySanchez/nextjs-reactquery-postslist.git
+   cd posts-list
+   ```
+
+2. **Install dependencies:**
+   ```
+   npm install
+   ```
+
+3. **Configuration:**
+   Before running the application, make sure to set up the database URI. You can do this by creating a `.env` file in the root of the project and adding the following line:
+   ```
+   DATABASE_URI=your_database_uri_here
+   ```
+
+   Replace `your_database_uri_here` with the actual URI of your database.
+
+## Usage
+
+To run the application and access the homepage with the list of blog posts, use the following command:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the development server is up and running, open your web browser and navigate to `http://localhost:3000` to see the listed blog posts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is currently not licensed, which means all rights are reserved. You can use and modify the code for personal use and learning purposes. However, please be aware that without a license, others cannot use, distribute, or contribute to the project.
 
-## Learn More
+## Note
 
-To learn more about Next.js, take a look at the following resources:
+This project is intended as an exercise and does not have any contributing guidelines or plans for future development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for checking out the Posts List project! If you have any questions or need further assistance, feel free to reach out. Happy browsing! 📚
